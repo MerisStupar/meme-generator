@@ -21,6 +21,9 @@ topTextInput.addEventListener("change", () => {
     updateMemeCanvas(canvas, image, topTextInput.value, bottomTextInput.value);
   });
 
+bottomTextInput.addEventListener("change", () => {
+  updateMemeCanvas(canvas, image, topTextInput.value, bottomTextInput.value);
+});
 
 
 function updateMemeCanvas(canvas, image, topText, bottomText) {
