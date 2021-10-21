@@ -18,8 +18,13 @@ imageFileInput.addEventListener("change", ()=>{     //for change image
 });          
 
 function updateMemeCanvas(canvas, image, topText, bottomText){
-    console.log(canvas);
-    console.log(image);
-    console.log(topText);
-    console.log(bottomText);
+    const ctx = canvas.getContext ("2d");
+    const width = image.width;
+    const height = image.height;
+
+    // For update canvas background
+    canvas.widht = width;
+    canvas.height = height;
+    ctx.drawImage(image, 0, 0, 350, 400);   //image, position (0), postinon (0) & widht/height
+
 }
