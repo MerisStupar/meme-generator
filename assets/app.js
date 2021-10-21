@@ -17,6 +17,11 @@ imageFileInput.addEventListener("change", (e) => {          //for change image
 );
 });
 
+topTextInput.addEventListener("change", () => {
+    updateMemeCanvas(canvas, image, topTextInput.value, bottomTextInput.value);
+  });
+
+
 
 function updateMemeCanvas(canvas, image, topText, bottomText) {
   const ctx = canvas.getContext("2d");
