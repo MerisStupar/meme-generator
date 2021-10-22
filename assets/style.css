@@ -46,10 +46,13 @@ body{
 }
 .inputText{
     text-align: center;
-
 }
 
 #imageFileInput{
     text-align: center;  
+}
+
+.button{
+    text-align: center; 
 }
 

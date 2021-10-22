@@ -56,3 +56,9 @@ function updateMemeCanvas(canvas, image, topText, bottomText) {
   ctx.strokeText(bottomText, width / 2, height - yOffset);
   ctx.fillText(bottomText, width / 2, height - yOffset);
 }
+
+
+// Download the canvas
+
+
+
