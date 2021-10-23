@@ -59,6 +59,11 @@ function updateMemeCanvas(canvas, image, topText, bottomText) {
 
 
 // Download the canvas
-
-
+function download() {
+  const download = document.getElementById("download");
+  const newLocal = "image";
+  let image = document.querySelector("canvas").toDataURL(newLocal)
+                      .replace("imageDataUrl");
+  download.setAttribute("href", image);
+}
 
