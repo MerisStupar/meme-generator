@@ -54,5 +54,31 @@ body{
 
 .button{
     text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*Responsive*/
+@media screen and (max-width:800px){
+    .inputText{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .selectImage{
+        margin: 0 auto;
+        width: 60%;
+    }
+    #topTextInput{
+        margin: 0 auto;
+        display: flex;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    #bottomTextInput{
+        margin: 0 auto;
+        display: flex;
+        width: 50%;
+        margin-bottom: 30px;
+    }
 }
 
