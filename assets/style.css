@@ -38,6 +38,8 @@ body{
     text-align: center;
     font-weight: 50;
     margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
 }
 
 .selectImage{
@@ -51,6 +53,15 @@ body{
 #imageFileInput{
     text-align: center;  
 }
+
+#topTextInput{
+    height: 30px;
+}
+#bottomTextInput{
+    height: 30px;
+}
+
+
 .button{
     text-align: center; 
     margin-top: 20px;
@@ -66,16 +77,19 @@ body{
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    color: rgb(0, 0, 0);
+    color: #1f1f1f;
     text-align: center;
     transition: all 0.2s;
-    animation: bn13bouncy 5s infinite linear;
+    animation: 5s infinite linear;
     position: relative;
+    border-radius: 30px;
+    background-color: white;
 }
 .btn:hover{
-    background-color: white;
     color: #10b62c;
 }
+
+
 @keyframes button {
     0% {
       top: 0em;
@@ -98,11 +112,7 @@ body{
     100% {
       top: 0em;
     }
-  }
-
-.file{
-
-}
+  } 
 
 /*Responsive*/
 @media screen and (max-width:800px){
@@ -127,4 +137,6 @@ body{
         margin-bottom: 30px;
     }
 }
+
+
 
